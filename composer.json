@@ -1,0 +1,33 @@
+{
+    "name": "pdyn/httputils",
+    "description": "A collection of useful HTTP-related utilities.",
+    "type": "library",
+    "keywords": ["http"],
+    "homepage": "https://pdyn.net",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "James McQuillan",
+            "email": "james@pdyn.net",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.5",
+    "support": {
+        "email": "support@pdyn.net"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "pdyn/base": "1.0.*",
+        "pdyn/cache": "1.0.*",
+        "pdyn/datatype": "1.0.*",
+        "pdyn/httpclient": "1.0.*",
+        "pdyn/filesystem": "1.0.*",
+        "pdyn/orm": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pdyn\\httputils\\": "."
+        }
+    }
+}
