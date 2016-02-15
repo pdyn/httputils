@@ -215,7 +215,7 @@ class HttpResource {
 		if (empty($url)) {
 			$url = $this->url;
 		}
-		return \pdyn\httputils\HttpUtilities::get_remote_filesize($url);
+		return $this->httpclient->get_remote_filesize($url);
 	}
 
 	/**
